@@ -1,0 +1,26 @@
+ {
+	"name": "node-red-contrib-soap",
+	"version": "0.1.0",
+	"description": "A Node-RED node to send SOAP messages. Uses soap library.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikakaraila/node-red-contrib-soap.git"
+	},
+	"keywords": [ "node-red", "SOAP" ],
+	"author": {
+		"name": "Mika Karaila",
+		"email" : "mika.karaila@gmail.com"
+	},
+	"license": "Apache",
+	"bugs": {
+		"url": "https://github.com/mikakaraila/node-red-contrib-soap/issues"
+	},
+	"node-red": {
+		"nodes": {
+			"SOAP": "104-soap.js"
+		}
+	},
+	"dependencies": {
+		"soap": "~0.6.1"
+	}
+}
